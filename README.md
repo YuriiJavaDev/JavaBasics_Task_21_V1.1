@@ -13,7 +13,7 @@ As the project motto says: *"When a beginner gets tired of digging in the 'frog 
 ## 📌 Compliance with Requirements
 This implementation fulfills all criteria of Task 21:
 
-"Imagine you're creating a form to register a new player.
+Imagine you're creating a form to register a new player.
 Write a program that first asks for the player's name (a string) and then their age (an integer).
 The program should then display the player's age and name, each on a new line.
 **Requirements:**
@@ -21,7 +21,7 @@ The program should then display the player's age and name, each on a new line.
 - The program should request and read the player's name as a string using Scanner.
 - The program should request and read the player's age as an integer using Scanner.
 - The integer (the player's age) should first be displayed on a separate line.
-- The player's name should be displayed on the next line." -
+- The player's name should be displayed on the next line.
 
 while maintaining an enterprise-grade architecture:
 - **Scanner usage:** Implemented in `PlayerNameProvider` and `PlayerAgeProvider`.
