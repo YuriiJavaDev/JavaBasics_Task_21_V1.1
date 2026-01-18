@@ -1,4 +1,4 @@
-# Player Registration System (JavaBasics_Task_21)
+# Player Registration System (JavaBasics_Task_21_V1.1)
 
 ## 📌 Compliance with Requirements
 This implementation fulfills all criteria of Task 21:
