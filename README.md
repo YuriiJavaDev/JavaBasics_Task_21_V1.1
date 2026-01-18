@@ -1,5 +1,15 @@
 # Player Registration System (JavaBasics_Task_21_V1.1)
 
+## 📖 Description
+This project is a transitional milestone in my Java learning journey. While the base task requires simple console input/output, this implementation elevates the solution into an **enterprise-ready architecture**.
+
+The core objective is to demonstrate how a "simple registration form" can be transformed using:
+* **Decomposition:** Splitting a monolithic script into specialized providers and services. [cite: 2026-01-18]
+* **Precise Math:** Beyond just printing an integer, this system calculates life duration down to milliseconds using `TimeUnit` and handles fractional years. [cite: 2026-01-18]
+* **Clean Code:** Using modern Java features like `records` for immutable Data Transfer Objects (DTOs). [cite: 2026-01-18]
+
+As the project motto says: *"When a beginner gets tired of digging in the 'frog pond' and climbs into unknown thickets to write more advanced code."*
+
 ## 📌 Compliance with Requirements
 This implementation fulfills all criteria of Task 21:
 
