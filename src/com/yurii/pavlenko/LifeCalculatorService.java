@@ -14,12 +14,12 @@ public class LifeCalculatorService {
     public LifeStatsDTO calculateDecomposedStats(long totalMs) {
         long remainingMs = totalMs;
 
-        // 1. Розрахунок років
+        // 1. Calculation of years
         long msInYear = (long) (DAYS_IN_A_YEAR * TimeUnit.DAYS.toMillis(1));
         long years = remainingMs / msInYear;
         remainingMs %= msInYear;
 
-        // 2. Системний розрахунок залишку
+        // 2. System balance calculation
         long days = TimeUnit.MILLISECONDS.toDays(remainingMs);
         remainingMs -= TimeUnit.DAYS.toMillis(days);
 
@@ -32,7 +32,6 @@ public class LifeCalculatorService {
         long seconds = TimeUnit.MILLISECONDS.toSeconds(remainingMs);
         long ms = remainingMs % 1000;
 
-        // ТУТ МАЄ БУТИ 7 АРГУМЕНТІВ: years ПЕРШИМ!
         return new LifeStatsDTO(years, days, hours, minutes, seconds, ms, totalMs);
     }
 }
